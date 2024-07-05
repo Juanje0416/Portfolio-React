@@ -21,7 +21,7 @@ const TimeLine = () => {
                                 <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full">{data.date}</time>
                                 <div className="text-xl font-bold text-yellow-300">{data.subtitle}</div>
                             </div>
-                            <div className="text-slate-400 text-white">{data.description}</div>
+                            <div className="text-white">{data.description}</div>
                         </div>
                     ))}
                 </div>

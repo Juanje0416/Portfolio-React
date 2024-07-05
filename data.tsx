@@ -128,7 +128,7 @@ export const serviceData = [
     {
         icon: <Rocket />,
         title: "Optimización",
-        description: "Optimización de código y probación del código desarrollado",
+        description: "Optimización de código y pruebas del código previamente desarrollado",
     },
 ];
 

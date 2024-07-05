@@ -1,6 +1,6 @@
 import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Instagram } from "lucide-react";
 import Image from "next/image";
-import { Mail } from 'lucide-react';
+import { Mail, PhoneCall } from 'lucide-react';
 
 
 export const socialNetworks = [
@@ -18,6 +18,11 @@ export const socialNetworks = [
         id: 3,
         logo: <Instagram size={30} strokeWidth={1} />,
         src: "https://www.instagram.com/juanje_fotos?igsh=b3l1NHdhdzY4aDgw",
+    },
+    {
+        id: 3,
+        logo: <PhoneCall size={30} strokeWidth={1} />,
+        src: "tel:+34619583046",
     },
 ];
 
@@ -137,10 +142,11 @@ export const dataPortfolio = [
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
+        title: "Portfolio Personal",
         image: "/image-2.png",
-        urlGithub: "#!",
+        urlGithub: "https://github.com/Juanje0416/Portfolio-React",
         urlDemo: "#!",
     },
+
     
 ];

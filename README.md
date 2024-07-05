@@ -1,3 +1,5 @@
+He creado un portfolio en React utilizando Next.js, Framer Motion y Tailwind CSS. Next.js me ha permitido optimizar la velocidad y eficiencia del sitio con su renderizado del lado del servidor y generación de sitios estáticos. Framer Motion ha añadido interacciones y animaciones fluidas, haciendo que la navegación sea dinámica y atractiva. Con Tailwind CSS, he construido un diseño moderno y responsivo de manera eficiente. Estas tecnologías me han ayudado a crear un portfolio que destaca tanto por su rendimiento como por su diseño, reflejando mis habilidades en desarrollo web.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

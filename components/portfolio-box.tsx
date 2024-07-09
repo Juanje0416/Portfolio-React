@@ -25,10 +25,15 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
                 <Image src={image} alt="Image product" width={200} height={200}
                     className="w-full rounded-2xl h-auto mx-auto"/>
             </div>
-            <div className="flex justify-center mt-5">
+            <div className="flex flex-col md:flex-row justify-center items-center mt-5 gap-2">
                 <Link href={urlGithub} target="_blank">
-                    <button className="px-4 py-2 bg-secondary hover:bg-secondary/65 rounded-lg">
+                    <button className="px-4 py-2 my-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50">
                         Github
+                    </button>
+                </Link>
+                <Link href={urlDemo} target="_blank">
+                    <button className="px-4 py-2 my-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50">
+                        Demo
                     </button>
                 </Link>
             </div>

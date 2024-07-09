@@ -145,7 +145,14 @@ export const dataPortfolio = [
         title: "Portfolio Personal",
         image: "/image-2.png",
         urlGithub: "https://github.com/Juanje0416/Portfolio-React",
-        urlDemo: "#!",
+        urlDemo: "https://portfolio-juanjesus.netlify.app/",
+    },
+    {
+        id: 3,
+        title: "Página vista pokemon",
+        image: "/image-3.png",
+        urlGithub: "https://github.com/Juanje0416/Pokemon-Card",
+        urlDemo: "https://charizard-pokemon-card.netlify.app/",
     },
 
     
